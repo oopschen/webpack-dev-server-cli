@@ -10,6 +10,8 @@ EXPOSE 5000
 EXPOSE 8080
 EXPOSE 8081
 
+STOPSIGNAL SIGKILL
+
 RUN apk add -U nodejs
 RUN rm -rf /var/cache/apk/*
 
