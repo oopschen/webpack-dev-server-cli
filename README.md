@@ -20,5 +20,5 @@ A webpack-dev-server command line container for daily usage.
 
 # Usage
 <code>
-docker run --rm -it -v $(pwd):/mnt/webpack-work -p 8081:8080 oopschen/webpack-dev-server-cli webpack-dev-server [options]
+  docker run --rm -it -v $(pwd):/mnt/webpack-work -p 8081:8080 oopschen/webpack-dev-server-cli [options]
 </code>
